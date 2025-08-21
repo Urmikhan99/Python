@@ -1,1 +1,1 @@
-B
+for i in range(n,(n*10)+1,n):
