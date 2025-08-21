@@ -43,3 +43,47 @@ print(ord("A"))
 print(ord("B"))
 print("A"<"B")
 print("A">"B")
+
+# Logical operators
+# logical AND(and)
+
+x=10
+y=20
+z=30
+if x>y and y>z:
+    print("x is largets Number")
+else:
+    print("x i not largest Number")
+
+
+# Logical OR(or)
+x=30
+y=50
+z=10
+if x>y or x>z:
+    print("x is at least larger than one number")
+else:
+    print("x is the smaller number")
+
+# not operations
+x=10
+y=20
+z=30
+if not(x>y or x>z):
+    print("x is not the larger number")
+else:
+    print("x is not the smallest number")
+
+
+
+print(not 12==12)
+
+'''
+Rule:
+
+and → True only if all conditions are True
+
+or → True if at least one condition is True
+
+not → Reverses the result of a condition
+'''
